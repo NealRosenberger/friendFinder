@@ -1,0 +1,20 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NealRosenberger/friendFinder.git"
+  },
+  "author": "Neal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NealRosenberger/friendFinder/issues"
+  },
+  "homepage": "https://github.com/NealRosenberger/friendFinder#readme"
+}

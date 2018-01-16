@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- 	<meta name="description" content="Find a friend by answering some simple questions">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+	<title>Friend Finder - Survey</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="modal fade" id="myModal">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">And your best match is...</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p id='friendName'></p>
+	        <img id='friendImg' src="" height='200'>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="container">
+		<h1>Survey Questions</h1>	
+		<hr>
+		<h3>About You</h3>
+		<div class="form-group">
+			<label for="Name">Name (Required)</label>
+			<input type="text" class='form-control' id='name' placeholder="Your Name">
+		</div>
+		<div class="form-group">
+			<label for="image">Link to Photo Image (Required)</label>
+			<input type="text" class='form-control' id='image' placeholder="Your Picture">
+		</div>
+		<hr>
+		<h3>Question 1</h3>
+		<h4>Donuts and Duff beer are life.</h4>
+		<div class="form-group">
+			<select name="quest1" id="quest1">
+				<option value="">Select an Option</option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+		</div>
+		<h3>Question 2</h3>
+		<h4>No one parties like me after the Super Bowl.</h4>
+		<div class="form-group">
+			<select name="quest2" id="quest2">
+				<option value="">Select an Option</option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+		</div>
+		<h3>Question 3</h3>
+		<h4>I would like to be a part owner of Paddy's Pub?.</h4>
+		<div class="form-group">
+			<select name="quest3" id="quest3">
+				<option value="">Select an Option</option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+		</div>
+		<h3>Question 4</h3>
+		<h4>No Sugar, I'm sweet enough as it is.</h4>
+		<div class="form-group">
+			<select name="quest4" id="quest4">
+				<option value="">Select an Option</option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+		</div>
+		<h3>Question 5</h3>
+		<h4>Hot Rods and Punk Rock.</h4>
+		<div class="form-group">
+			<select name="quest5" id="quest5">
+				<option value="">Select an Option</option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+		</div>
+		<div class="btn btn-primary btn-block" id="submit"><h4><span class="glyphicon glyphicon-question-sign"></span> Find a friend</h4></div>
+		<hr>
+
+		<br>
+	</div>
+	
+	<script src='logic.js'></script>
+</body>
+</html>

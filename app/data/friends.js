@@ -1,0 +1,71 @@
+let friends = [
+{
+  "name":"Homer",
+  "photo":"https://pbs.twimg.com/profile_images/725013638411489280/4wx8EcIA.jpg",
+  "scores":[
+      5,
+      3,
+      4,
+      5,
+      32
+    ] 
+},
+{
+  "name":"Gronk",
+  "photo":"https://www.denverpost.com/wp-content/uploads/2016/09/459100306.jpg?w=1024&h=683",
+  "scores":[
+      2,
+      2,
+      4,
+      4,
+      1
+    ]
+},
+{
+  "name":"Mike Ness",
+  "photo":"https://img.wennermedia.com/480-width/rs-202572-GettyImages-475347314.jpg",
+  "scores":[
+      1,
+      4,
+      4,
+      4,
+      2
+    ]
+},
+{
+  "name":"Bill Burr",
+  "photo":"https://static.highsnobiety.com/wp-content/uploads/2017/03/29114926/bill-burr-sneakerhead-streetwear-rant-00.jpg",
+  "scores":[
+      5,
+      3,
+      5,
+      5,
+      2
+    ]
+},
+{
+  "name":"Bricktop",
+  "photo":"https://vignette.wikia.nocookie.net/villains/images/a/ab/Brick_Top.jpg/revision/latest/scale-to-width-down/300?cb=20111229022755",
+  "scores":[
+      5,
+      4,
+      4,
+      5,
+      3
+    ]
+},
+{
+  "name":"Charlie",
+  "photo":"https://img.buzzfeed.com/buzzfeed-static/static/2014-12/5/11/campaign_images/webdr08/if-charlie-kelly-quotes-from-its-always-sunny-wer-2-25010-1417796449-1_dblbig.jpg",
+  "scores":[
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
+}
+];
+
+module.exports = friends;
+
